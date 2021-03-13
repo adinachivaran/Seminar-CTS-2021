@@ -31,7 +31,7 @@ public class Angajat extends Aplicant {
 	@Override
 	public String toString() {
 		StringBuilder stringBuilder = new StringBuilder("Angajat: ");
-		stringBuilder.append(super.toString()).append(" Ocupatie=").append(this.ocupatie).append(", salariu=").append(this.salariu);
+		stringBuilder.append(super.toString()).append(", Ocupatie=").append(this.ocupatie).append(", salariu=").append(this.salariu);
 		return stringBuilder.toString();
 	}
 }
