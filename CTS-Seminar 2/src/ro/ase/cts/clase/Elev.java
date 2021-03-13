@@ -23,9 +23,9 @@ public class Elev extends Aplicant{
 	
 	@Override
 	public String toString() {
-		return "Elev: Nume=" + nume + ", Prenume=" + prenume + ", Varsta="
-				+ varsta + ", Punctaj=" + punctaj + ", Nr_proiecte=" + nr_proiecte  + ", DenumireProiect="
-				+ Arrays.toString(denumireProiect) + "Clasa=" + clasa + ", Tutore=" + tutore;
+		StringBuilder stringBuilder=new StringBuilder("Elev: ");
+		stringBuilder.append("Clasa=").append(this.clasa).append(", Tutore=").append(this.tutore);
+		return stringBuilder.toString();
 	}
 	
 	public Elev() {
