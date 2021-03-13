@@ -79,7 +79,7 @@ public abstract class Aplicant {
 		stringBuilder.append(punctaj);
 		stringBuilder.append(", nrProiecte=");
 		stringBuilder.append(nrProiecte);
-		stringBuilder.append(", denumireProiect= ");
+		stringBuilder.append(", denumireProiect=");
 		stringBuilder.append(Arrays.toString(denumireProiect));
 		return stringBuilder.toString();
 	}
