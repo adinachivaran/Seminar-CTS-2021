@@ -11,7 +11,6 @@ public class Main {
 	receptie2.setEtaj(4);
 	System.out.println(receptie1.toString());
 	System.out.println(receptie2.toString());
-	
 	}
 	
 }
