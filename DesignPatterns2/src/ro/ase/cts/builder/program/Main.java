@@ -1,6 +1,7 @@
 package ro.ase.cts.builder.program;
 
 import ro.ase.cts.builder.BuilderRezervare;
+import ro.ase.cts.builder.BuilderRezervare2;
 import ro.ase.cts.builder.Rezervare;
 
 public class Main {
@@ -19,6 +20,14 @@ public class Main {
 		Rezervare r5=br.setCodRezervare(25).build();
 		System.out.println(r4.toString());
 		System.out.println(r5.toString());
+		
+		BuilderRezervare2 rezervareBuilder2=new BuilderRezervare2();
+		rezervareBuilder2.setAreMancareInclusa(true).setAreBauturaInclusa(true).setAreScaunEgonomic(true);
+		Rezervare r6=rezervareBuilder2.setCodRezervare(30).build();
+		Rezervare r7=rezervareBuilder2.setCodRezervare(35).build();
+		
+		System.out.println(r6.toString());
+		System.out.println(r7.toString());
 		
 	}
 
