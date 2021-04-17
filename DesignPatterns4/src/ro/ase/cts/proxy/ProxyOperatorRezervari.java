@@ -12,7 +12,6 @@ public class ProxyOperatorRezervari implements IOperatorRezervari{
 		this.nrMinimPersoane=nrMinPers;
 	}
 
-
 	@Override
 	public void realizeazaRezervare(String numeClient, int nrPersoane) {
 		if(nrPersoane>=nrMinimPersoane) {
