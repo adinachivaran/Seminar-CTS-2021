@@ -14,7 +14,6 @@ public class Client implements Observer {
 
 	@Override
 	public void primesteMesaj(String mesaj) {
-		
 		System.out.println("Clientul "+this.nume+ " a primit mesajul "+mesaj);
 	}
 
