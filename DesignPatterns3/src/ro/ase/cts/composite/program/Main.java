@@ -20,6 +20,7 @@ public class Main {
 		
 		//a1.adaugaSediu(a2);
 		a1.descriere();
+		a2.descriere();
 	}
 
 }
